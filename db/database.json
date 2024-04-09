@@ -1,0 +1,1110 @@
+{
+  "users": [
+    {
+      "id": "us1",
+      "email": "long109@gmail.com",
+      "password": "Long109",
+      "name": "Trần Hoàng Long"
+    },
+    {
+      "id": "us2",
+      "email": "hien109@gmail.com",
+      "password": "Hien109",
+      "name": "Trần Thu Hiền"
+    },
+    {
+      "id": "us3",
+      "email": "phong@gmail.com",
+      "password": "Phong123",
+      "name": "Nguyễn Duy Phong"
+    },
+    {
+      "id": "us4",
+      "email": "thien@gmail.com",
+      "password": "Thien123",
+      "name": "Nguyễn Thiên"
+    },
+    {
+      "id": "6ac4",
+      "email": "longhoang@gmail.com",
+      "password": "long123",
+      "name": "Long Hoang"
+    },
+    {
+      "id": "ac38",
+      "email": "than123@gmail.com",
+      "password": "than123",
+      "name": "La Duy Than"
+    },
+    {
+      "password": "tuan0000",
+      "id": "04a3",
+      "name": "Vu Anh Tuan",
+      "email": "tuan123@gmail.com"
+    },
+    {
+      "id": "7726",
+      "email": "long109@gmail.com",
+      "password": "longlong",
+      "name": "long tran "
+    }
+  ],
+  "products": [
+    {
+      "id": "pi0",
+      "name": "Pizza hải sản",
+      "image": "https://template.smartapp.edu.vn/wp-content/uploads/2020/05/banh-pizza.jpg",
+      "price": 50000,
+      "description": "Pizza hải sản với hương vị của tôm, mực, hành tây hòa quyện cùng những lớp phô mai thơm béo là lựa chọn lý tưởng cho những bữa tiệc chiêu đãi bạn bè và gia đình.",
+      "categoryId": "c0",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 40000
+        },
+        {
+          "name": "M",
+          "price": 50000
+        },
+        {
+          "name": "L",
+          "price": 58000
+        }
+      ],
+      "sold": 9740,
+      "new": false
+    },
+    {
+      "id": "pi1",
+      "name": "Pizza thập cẩm",
+      "image": "https://8200.chilibusiness.net/wp-content/uploads/2016/07/td-1.png",
+      "price": 55000,
+      "description": "Với pizza nhân thịt, bạn có cơ hội tận hưởng hương vị thịt đa dạng (thịt dăm bông, thịt bò viên, thịt heo muối…) kết hợp với các loại xốt và phô mai ngon chuẩn vị.",
+      "categoryId": "c0",
+      "rating": 4,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 45000
+        },
+        {
+          "name": "M",
+          "price": 55000
+        },
+        {
+          "name": "L",
+          "price": 63000
+        }
+      ],
+      "sold": 9530,
+      "new": false
+    },
+    {
+      "id": "pi2",
+      "name": "Pizza truyền thống",
+      "image": "https://product.hstatic.net/1000394039/product/an_style-texgrill-haiphong__5__0c4a7117ab9a418c97b60aa709165974_grande_2d1f7615c30846928c74ad468401885d.jpg",
+      "price": 60000,
+      "description": "Pizza Hawaii mang đến hương vị mùa hè tươi mát từ vị dứa (thơm) đặc trưng cùng thịt dăm bông mặn và xốt cà chua, phô mai thơm béo ấn tượng.",
+      "categoryId": "c0",
+      "rating": 4.9,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 50000
+        },
+        {
+          "name": "M",
+          "price": 60000
+        },
+        {
+          "name": "L",
+          "price": 68000
+        }
+      ],
+      "sold": 10403,
+      "new": false
+    },
+    {
+      "id": "pi3",
+      "name": "Pizza gà",
+      "image": "https://file.hstatic.net/1000389344/file/pizza_ga_9ca9c67798fd4edd8093ffb00ad74b39_grande.jpg",
+      "price": 50000,
+      "description": "Thịt gà là một món ăn bổ dưỡng, giúp gia tăng vị giác của bất cứ món ăn nào mà chúng góp mặt. Đặc biệt những bạn đam mê gà thì không thể bỏ qua chiếc bánh pizza nhân gà phải không nào, chiếc bánh với gà là loại topping chính hòa quyện cùng sốt phô mai thơm lừng thực sự khó cưỡng.",
+      "categoryId": "c0",
+      "rating": 5,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 40000
+        },
+        {
+          "name": "M",
+          "price": 50000
+        },
+        {
+          "name": "L",
+          "price": 58000
+        }
+      ],
+      "sold": 4510,
+      "new": false
+    },
+    {
+      "id": "pi4",
+      "name": "Pizza bò băm",
+      "image": "https://file.hstatic.net/1000389344/file/_5_beefy_42507a208610490e8f4582b3f90f2332_grande.jpg",
+      "price": 70000,
+      "description": "Vị chua chua, ngọt ngọt của dứa kết hợp với vỏ bánh giòn xốp cùng với thịt bò băm có thể tạo nên hương vị pizza đặc trưng khiến bạn nhớ mãi chẳng quên. Cũng bởi vậy mà pizza bò băm luôn là (best-seller) trong menu của các tiệm bánh pizza nổi tiếng.",
+      "categoryId": "c0",
+      "rating": 5,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 60000
+        },
+        {
+          "name": "M",
+          "price": 70000
+        },
+        {
+          "name": "L",
+          "price": 78000
+        }
+      ],
+      "sold": 3230,
+      "new": true
+    },
+    {
+      "id": "b0",
+      "name": "Maxi Burger",
+      "image": "https://static.utop.vn/backupblog/richtexteditor/image_1116702407_20230305.jpeg",
+      "price": 39000,
+      "description": "Bánh burger của Maxi Burger nổi bật với hương vị thơm ngon vẻ ngoài bắt mắt, vỏ bánh mì tươi thơm ngậy mùi lúa mì kết hợp với phần thịt xay được chế biến tỉ mĩ từ các nhà đầu bếp từ công đoạn chọn loại thịt tốt, ép và cuối cùng là nướng trên thiết bản.",
+      "categoryId": "c1",
+      "rating": 4.7,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 39000
+        },
+        {
+          "name": "M",
+          "price": 48000
+        },
+        {
+          "name": "L",
+          "price": 57000
+        }
+      ],
+      "sold": 3430,
+      "new": true
+    },
+    {
+      "id": "bu1",
+      "name": "Burger King ",
+      "image": "https://static.utop.vn/backupblog/richtexteditor/image_1913693782_20230305.jpeg",
+      "price": 42000,
+      "description": "Burger King lừng danh trên thế giới với 100% thịt bò nguyên chất nhập từ Úc được nướng lửa trực tiếp. Với thực đơn đa dạng, công thức chế biến độc đáo, BURGER KING tự hào mang đến cho khách hàng của mình những trải nghiệm ẩm thực tuyệt vời nhất.",
+      "categoryId": "c1",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 35000
+        },
+        {
+          "name": "M",
+          "price": 42000
+        },
+        {
+          "name": "L",
+          "price": 51000
+        }
+      ],
+      "sold": 10530,
+      "new": false
+    },
+    {
+      "id": "bu2",
+      "name": "McDonalds",
+      "image": "https://static.utop.vn/backupblog/richtexteditor/image_934287320_20230305.jpeg",
+      "price": 62000,
+      "description": "McDonald's là Big Mac chiếc hamburger với những miếng thịt bò được tẩm ướp gia vị vừa vị kết hợp với phô mai béo ngậy cùng với công thức nước sốt đặc biệt độc nhất đã khiến cho những chiến bánh có hương vị cực kỳ tuyệt hảo.",
+      "categoryId": "c1",
+      "rating": 4.9,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 55000
+        },
+        {
+          "name": "M",
+          "price": 62000
+        },
+        {
+          "name": "L",
+          "price": 68000
+        }
+      ],
+      "sold": 8830,
+      "new": false
+    },
+    {
+      "id": "bu3",
+      "name": "MG Burger",
+      "image": "https://static.utop.vn/backupblog/richtexteditor/image_319107524_20230305.jpeg",
+      "price": 55000,
+      "description": "Đặc trưng của những chiếc bánh burger ở đây là vỏ bánh mềm bên trong béo ngậy được rưới thêm một lớp nước sốt đậm đà mang hương vị Pháp thật tuyệt vời làm sao.",
+      "categoryId": "c1",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 45000
+        },
+        {
+          "name": "M",
+          "price": 55000
+        },
+        {
+          "name": "L",
+          "price": 63000
+        }
+      ],
+      "sold": 5693,
+      "new": true
+    },
+    {
+      "id": "p2",
+      "name": "Phở bò",
+      "image": "https://cdn.tgdd.vn/2021/06/content/phobo-800x450.jpg",
+      "price": 35000,
+      "description": " Tô phở với hương thơm đặc trưng, cực hấp dẫn, những miếng nạm bò to, dày, thịt bò tái hồng hồng, thêm chút màu xanh và hương thơm từ hành và các loại rau ăn kèm khác, nhìn thôi là đã thấy ngon rồi.",
+      "categoryId": "c2",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 30000
+        },
+        {
+          "name": "M",
+          "price": 35000
+        },
+        {
+          "name": "L",
+          "price": 40000
+        }
+      ],
+      "sold": 9958,
+      "new": false
+    },
+    {
+      "id": "p3",
+      "name": "Phở cuốn",
+      "image": "https://cdn.tgdd.vn/2021/06/content/phocuon-800x450.jpg",
+      "price": 35000,
+      "description": "Miếng bánh phở tươi, trắng nõn nà cuộn bên trong những cọng rau xanh mướt, miếng thịt chiên thơm, vàng, giò lụa trắng trắng, cà rốt đỏ đỏ, đúng là khiến cho người ta khó mà chống lại sức hấp dẫn của món ăn này.",
+      "categoryId": "c2",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 30000
+        },
+        {
+          "name": "M",
+          "price": 35000
+        },
+        {
+          "name": "L",
+          "price": 40000
+        }
+      ],
+      "sold": 10258,
+      "new": false
+    },
+    {
+      "id": "p4",
+      "name": "Phở gà",
+      "image": "https://cdn.tgdd.vn/2021/06/content/phoga-800x450.jpg",
+      "price": 30000,
+      "description": "Thực đơn các món phở của bạn không thể nào bỏ qua món phở gà này được rồi. Một tô phở gà thơm nức mũi, nóng hổi với những miếng thịt gà trắng, mềm, da gà vàng ươm, sẽ vỗ về cái bao tử đang cồn cào của bạn.",
+      "categoryId": "c2",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 30000
+        },
+        {
+          "name": "M",
+          "price": 35000
+        },
+        {
+          "name": "L",
+          "price": 40000
+        }
+      ],
+      "sold": 9551,
+      "new": false
+    },
+    {
+      "id": "p5",
+      "name": "Phở xào",
+      "image": "https://cdn.tgdd.vn/2021/06/content/phoxao-800x450.jpg",
+      "price": 35000,
+      "description": "Phở xào với những miếng thịt bò mềm, ngọt, quyện cùng với cải thìa, cà rốt, hành tây, vừa tươi, vừa giòn, vừa ngọt, thêm một chút ngò rí, hành lá thơm lừng. Chỉ cần thử một lần là bạn sẽ phải nghiện món ăn này.",
+      "categoryId": "c2",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 30000
+        },
+        {
+          "name": "M",
+          "price": 35000
+        },
+        {
+          "name": "L",
+          "price": 40000
+        }
+      ],
+      "sold": 8979,
+      "new": true
+    },
+    {
+      "id": "p6",
+      "name": "Phở vịt quay",
+      "image": "https://cdn.tgdd.vn/2021/06/content/phovitquay-800x450.jpg",
+      "price": 35000,
+      "description": "Nước dùng phở ngọt thanh, bánh phở mềm. Điểm nhấn cho món ăn này chính là miếng thịt vị thơm lừng, mềm ngọt, được tẩm ướp đậm đà. Thêm một chút rau thơm, một chút măng ngâm, vài lát ớt cay cay nữa thì đảm bảo ai cũng phải chết mê món này.",
+      "categoryId": "c2",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 30000
+        },
+        {
+          "name": "M",
+          "price": 35000
+        },
+        {
+          "name": "L",
+          "price": 40000
+        }
+      ],
+      "sold": 9646,
+      "new": false
+    },
+    {
+      "id": "b1",
+      "name": "Bún bò Huế",
+      "image": "https://gcs.tripi.vn/public-tripi/tripi-feed/img/473760KPS/bun-bo-hue-721659.jpg",
+      "price": 35000,
+      "description": "Bún bò Huế - món ăn truyền thống với hương vị đậm đà, quyến rũ. Nước dùng ninh từ xương heo với thơm gừng, sả, tạo hương vị ngon khó cưỡng. Thịt bắp bò, giò heo, chả và rau tươi kèm nước mắm ruốc đặc trưng.",
+      "categoryId": "c3",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 35000
+        },
+        {
+          "name": "M",
+          "price": 40000
+        },
+        {
+          "name": "L",
+          "price": 45000
+        }
+      ],
+      "sold": 13294,
+      "new": false
+    },
+    {
+      "id": "b2",
+      "name": "Bún đậu mắm tôm",
+      "image": "https://gcs.tripi.vn/public-tripi/tripi-feed/img/473760AXk/bun-dau-mam-tom-721685.jpg",
+      "price": 35000,
+      "description": "Mẹt bún với đậu hũ chiên giòn, thịt heo luộc, và chả cốm giòn tan. Tất cả ngập trong chén mắm tôm thơm ngon được nêm kỹ lưỡng. Hương vị độc đáo này sẽ làm bạn hài lòng!",
+      "categoryId": "c3",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 30000
+        },
+        {
+          "name": "M",
+          "price": 35000
+        },
+        {
+          "name": "L",
+          "price": 40000
+        }
+      ],
+      "sold": 9743,
+      "new": true
+    },
+    {
+      "id": "b3",
+      "name": "Bún chả",
+      "image": "https://gcs.tripi.vn/public-tripi/tripi-feed/img/473760QYl/bun-cha-ha-noi-721700.jpg",
+      "price": 30000,
+      "description": "Bún chả là món ngon với bún, chả thịt lợn được nướng trên than hoa và chảo nước mắm chua cay mặn ngọt. Món ăn này xuất phát từ miền Bắc Việt Nam, là một trong những quà tặng có sức sống lâu dài nhất của Hà Nội",
+      "categoryId": "c3",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 25000
+        },
+        {
+          "name": "M",
+          "price": 30000
+        },
+        {
+          "name": "L",
+          "price": 35000
+        }
+      ],
+      "sold": 9781,
+      "new": false
+    },
+    {
+      "id": "b4",
+      "name": "Bún riêu",
+      "image": "https://gcs.tripi.vn/public-tripi/tripi-feed/img/473760DOt/bun-rieu-472958.jpg",
+      "price": 30000,
+      "description": "Bún riêu có hương vị đậm đà, nước dùng có chút chua nhẹ, hương thơm của cua đồng. Thường kèm theo một ít mắm tôm để làm tăng thêm hương vị đậm đà, thường ăn kèm với rau ghém như rau diếp và rau muống cọng.",
+      "categoryId": "c3",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 25000
+        },
+        {
+          "name": "M",
+          "price": 30000
+        },
+        {
+          "name": "L",
+          "price": 35000
+        }
+      ],
+      "sold": 9754,
+      "new": false
+    },
+    {
+      "id": "b5",
+      "name": "Bún chả cá",
+      "image": "https://gcs.tripi.vn/public-tripi/tripi-feed/img/473760aEY/bun-cha-ca-nha-trang-721675.jpg",
+      "price": 30000,
+      "description": "Món ăn này được chế biến từ cá nhỏ tươi ngon, có thể là cá thu, để tạo nên nước dùng trong lành và hương vị độc đáo. Bạn có thể thưởng thức món bún chả cá tại nhiều quán nổi tiếng như bún lá Ninh Hoà hoặc bún cá Nguyên Loan.",
+      "categoryId": "c3",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 25000
+        },
+        {
+          "name": "M",
+          "price": 30000
+        },
+        {
+          "name": "L",
+          "price": 35000
+        }
+      ],
+      "sold": 8432,
+      "new": false
+    },
+    {
+      "id": "co1",
+      "name": "Cơm sườn bì chả",
+      "image": "https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/uploads/images/tin-tuc/163056/Originals/com-tam-2.jpg",
+      "price": 30000,
+      "description": "Hạt cơm tấm dẻo thơm, miếng sườn nướng mềm mọng thấm vị, chả trứng bùi bùi béo ngậy, bì heo giòn dai hòa quyện khiến vị giác thêm phần thổn thức, càng ăn càng ghiền.",
+      "categoryId": "c4",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 25000
+        },
+        {
+          "name": "M",
+          "price": 30000
+        },
+        {
+          "name": "L",
+          "price": 35000
+        }
+      ],
+      "sold": 7562,
+      "new": false
+    },
+    {
+      "id": "co2",
+      "name": "Cơm sườn chả trứng muối",
+      "image": "https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/uploads/images/tin-tuc/163056/Originals/com-tam-6.jpg",
+      "price": 30000,
+      "description": "Chả trứng muối ở bên ngoài là lớp thịt mềm ẩm, bên trong là lòng đỏ trứng muối béo ngậy. Cộng với miếng sườn nướng thơm nức mũi càng làm dĩa cơm tấm hấp dẫn hơn nhiều. ",
+      "categoryId": "c4",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 25000
+        },
+        {
+          "name": "M",
+          "price": 30000
+        },
+        {
+          "name": "L",
+          "price": 35000
+        }
+      ],
+      "sold": 9214,
+      "new": false
+    },
+    {
+      "id": "co3",
+      "name": "Cơm tấm gà nướng",
+      "image": "https://images.fpt.shop/unsafe/filters:quality(90)/fptshop.com.vn/uploads/images/tin-tuc/163056/Originals/com-tam-5.jpg",
+      "price": 30000,
+      "description": "Thịt gà mềm được ướp đẫm gia vị, khi nướng sẽ dậy mùi thơm thơm ngào ngạt khó cưỡng. Ăn cùng với cơm tấm dẻo thơm, ngọt dịu kết hợp với dưa leo cắt lát, cà rốt và củ cải trắng ngâm chua giòn giòn càng làm tăng thêm độ ngon cho bữa ăn.",
+      "categoryId": "c4",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 25000
+        },
+        {
+          "name": "M",
+          "price": 30000
+        },
+        {
+          "name": "L",
+          "price": 35000
+        }
+      ],
+      "sold": 8473,
+      "new": false
+    },
+    {
+      "id": "co4",
+      "name": "Cơm tấm Sài Gòn",
+      "image": "https://dulichvietnam.com.vn/vnt_upload/news/11_2020/Mon_nuong_o_Viet_Nam_111.jpg",
+      "price": 30000,
+      "description": "Điều tạo nên sự thành công của món cơm tấm Sài Gòn chính là hương vị của nước mắm. Thông thường, nước mắm dùng kèm cơm sẽ được pha thêm nước lọc và đường, tùy vào khẩu vị của mỗi người mà gia giảm hương vị sao cho vừa miệng nhất.",
+      "categoryId": "c4",
+      "rating": 4.2,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 25000
+        },
+        {
+          "name": "M",
+          "price": 30000
+        },
+        {
+          "name": "L",
+          "price": 35000
+        }
+      ],
+      "sold": 8432,
+      "new": false
+    },
+    {
+      "id": "frr1",
+      "name": "Bạch tuộc nướng",
+      "image": "https://statics.vincom.com.vn/xu-huong/chi_tiet_xu_huong/1/14-4/4/bach-tuot-nuong-sate.jpg",
+      "price": 100000,
+      "description": " Những miếng mực được nướng chín vàng đều 2 mặt thơm ngất ngây, phần thịt giòn giòn, dai dai xen lẫn vị cay nồng của sa tế và vị đậm đà của các loại gia vị tẩm ướp rất ngon.",
+      "categoryId": "c5",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 100000
+        },
+        {
+          "name": "M",
+          "price": 150000
+        },
+        {
+          "name": "L",
+          "price": 200000
+        }
+      ],
+      "sold": 7534,
+      "new": true
+    },
+    {
+      "id": "frt2",
+      "name": "Gà nướng mật ong",
+      "image": "https://statics.vincom.com.vn/xu-huong/chi_tiet_xu_huong/1/14-4/4/ga-nuong-mat-ong.jpg",
+      "price": 120000,
+      "description": "Gà nướng mật ong là một món ăn hấp dẫn mà bạn rất khó chối từ. Khi thưởng thức, bạn sẽ được cắn từng miếng thịt mềm mềm cùng hương vị đậm đà của nước sốt mật ong. Chấm với chút muối tiêu chanh ớt chua chua, cay cay thì càng tuyệt vời.",
+      "categoryId": "c5",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 90000
+        },
+        {
+          "name": "M",
+          "price": 120000
+        },
+        {
+          "name": "L",
+          "price": 150000
+        }
+      ],
+      "sold": 7845,
+      "new": true
+    },
+    {
+      "id": "fff3",
+      "name": "Thịt heo nướng muối ớt",
+      "image": "https://cdn.tgdd.vn/Files/2017/04/14/972222/cach-uop-thit-nuong-tu-cac-loai-gia-vi-co-san-thit-mem-ngon-chuan-vi-nha-hang-201910031900567222.jpeg",
+      "price": 90000,
+      "description": " Món ăn khi thành phẩm sẽ có màu sắc đẹp mắt, thịt thấm vị cay, quyện cùng phần nước sốt đậm đà.",
+      "categoryId": "c5",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 70000
+        },
+        {
+          "name": "M",
+          "price": 90000
+        },
+        {
+          "name": "L",
+          "price": 120000
+        }
+      ],
+      "sold": 9742,
+      "new": false
+    },
+    {
+      "id": "fd4",
+      "name": "Chân gà nướng",
+      "image": "https://statics.vincom.com.vn/xu-huong/chi_tiet_xu_huong/1/14-4/4/chan-ga-nuong-mat-ong.jpeg",
+      "price": 30000,
+      "description": "Không thể bỏ qua được món chân gà nướng mật ong vàng ươm, thơm lừng này. Những chiếc chân gà với lớp da bên ngoài vàng giòn kết hợp cùng vị ngọt tự nhiên của mật ong khiến bạn cảm thấy vô cùng thích thú",
+      "categoryId": "c5",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 25000
+        },
+        {
+          "name": "M",
+          "price": 35000
+        },
+        {
+          "name": "L",
+          "price": 45000
+        }
+      ],
+      "sold": 11482,
+      "new": false
+    },
+    {
+      "id": "fu5",
+      "name": "Cá hồi nướng tỏi",
+      "image": "https://statics.vincom.com.vn/xu-huong/chi_tiet_xu_huong/1/14-4/4/ca-hoi-nuong-toi.jpg",
+      "price": 90000,
+      "description": " Cá hồi nướng tỏi có hương vị thơm lừng của những tép tỏi nướng được kết hợp cùng miếng cá hồi ngọt ngon, chắc thịt. Món ăn này rất ngon miệng, kích thích được các giác quan của người ăn.",
+      "categoryId": "c5",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 70000
+        },
+        {
+          "name": "M",
+          "price": 90000
+        },
+        {
+          "name": "L",
+          "price": 120000
+        }
+      ],
+      "sold": 6131,
+      "new": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "All"
+    },
+    {
+      "id": "c0",
+      "name": "Pizza"
+    },
+    {
+      "id": "c1",
+      "name": "Burger"
+    },
+    {
+      "id": "c2",
+      "name": "Pho"
+    },
+    {
+      "id": "c3",
+      "name": "Bun"
+    },
+    {
+      "id": "c4",
+      "name": "Rice"
+    },
+    {
+      "id": "c5",
+      "name": "Fried"
+    }
+  ],
+  "favourite": [
+    {
+      "id": "fv1",
+      "userId": "us1",
+      "foodId": "b3",
+      "foodName": "Bún chả",
+      "foodImage": "https://gcs.tripi.vn/public-tripi/tripi-feed/img/473760QYl/bun-cha-ha-noi-721700.jpg",
+      "foodPrice": 30000,
+      "foodDes": "Bún chả là món ngon với bún, chả thịt lợn được nướng trên than hoa và chảo nước mắm chua cay mặn ngọt. Món ăn này xuất phát từ miền Bắc Việt Nam, là một trong những quà tặng có sức sống lâu dài nhất của Hà Nội",
+      "categoryId": "c3",
+      "rating": 4.8,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 25000
+        },
+        {
+          "name": "M",
+          "price": 30000
+        },
+        {
+          "name": "L",
+          "price": 35000
+        }
+      ],
+      "sold": 9781,
+      "new": false
+    },
+    {
+      "id": "fv2",
+      "userId": "us1",
+      "foodId": "pi2",
+      "foodName": "Pizza truyền thống",
+      "foodImage": "https://product.hstatic.net/1000394039/product/an_style-texgrill-haiphong__5__0c4a7117ab9a418c97b60aa709165974_grande_2d1f7615c30846928c74ad468401885d.jpg",
+      "foodPrice": 60000,
+      "foodDes": "Pizza Hawaii mang đến hương vị mùa hè tươi mát từ vị dứa (thơm) đặc trưng cùng thịt dăm bông mặn và xốt cà chua, phô mai thơm béo ấn tượng.",
+      "categoryId": "c0",
+      "rating": 4.9,
+      "sizes": [
+        {
+          "name": "S",
+          "price": 50000
+        },
+        {
+          "name": "M",
+          "price": 60000
+        },
+        {
+          "name": "L",
+          "price": 68000
+        }
+      ],
+      "sold": 10403,
+      "new": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "com1",
+      "productId": "pi0",
+      "content": "Món này thật sự ngon! Thơm phức và đầy hương vị.",
+      "userId": "us1",
+      "star": 5
+    },
+    {
+      "id": "com2",
+      "productId": "pi0",
+      "content": "Không gian hấp dẫn và món ăn rất ngon. Sẽ quay lại!",
+      "userId": "us2",
+      "star": 5
+    },
+    {
+      "id": "com3",
+      "productId": "pi0",
+      "content": "Thức ăn đa dạng và phong phú. Mọi người nên thử!",
+      "userId": "us1",
+      "star": 5
+    },
+    {
+      "id": "com4",
+      "productId": "pi0",
+      "content": "Đồ ăn ở đây thật sự tuyệt vời. Sự phục vụ tận tình và chu đáo.",
+      "userId": "us1",
+      "star": 5
+    },
+    {
+      "id": "com5",
+      "productId": "pi1",
+      "content": "Thức ăn tươi ngon và phục vụ nhanh chóng. Rất hài lòng!",
+      "userId": "us2",
+      "star": 5
+    },
+    {
+      "id": "com6",
+      "productId": "pi1",
+      "content": "Mỗi món đều đặc biệt và ngon miệng. Điều này thực sự đáng để thử.",
+      "userId": "us2",
+      "star": 5
+    },
+    {
+      "id": "com7",
+      "productId": "pi1",
+      "content": "Hương vị độc đáo và phong phú. Một trải nghiệm ẩm thực tuyệt vời!",
+      "userId": "us2",
+      "star": 4
+    },
+    {
+      "id": "com8",
+      "productId": "pi1",
+      "content": "Đồ ăn ở đây đảm bảo chất lượng và giá cả hợp lý. Rất đáng để đến thưởng thức.",
+      "userId": "us2",
+      "star": 5
+    },
+    {
+      "id": "com9",
+      "productId": "pi2",
+      "content": "Một địa điểm tuyệt vời cho bữa ăn gia đình hoặc gặp gỡ bạn bè. Mọi người đều thích!",
+      "userId": "us2",
+      "star": 5
+    },
+    {
+      "id": "com10",
+      "productId": "pi2",
+      "content": "Một trải nghiệm ẩm thực độc đáo và đáng nhớ. Sẽ quay lại lần nữa!",
+      "userId": "us1",
+      "star": 4
+    },
+    {
+      "id": "e1c0",
+      "productId": "b0",
+      "content": "Rat vua vi",
+      "userId": "us3",
+      "star": 4
+    },
+    {
+      "id": "8ba6",
+      "productId": "b0",
+      "content": "Se thu lai lan sau 😊",
+      "userId": "us3",
+      "star": 4
+    },
+    {
+      "id": "4b7a",
+      "productId": "b0",
+      "content": "oke do",
+      "userId": "us3",
+      "star": 5
+    },
+    {
+      "id": "6877",
+      "productId": "pi3",
+      "content": "Rat gi va nay no",
+      "userId": "us4",
+      "star": 5
+    },
+    {
+      "id": "3aa4",
+      "productId": "pi3",
+      "content": "very goodddddd",
+      "userId": "us4",
+      "star": 5
+    },
+    {
+      "id": "f7d9",
+      "productId": "pi3",
+      "content": "Rat ngon, toi chuwa bao gio an pizza ngon the nay 😋",
+      "userId": "us4",
+      "star": 5
+    },
+    {
+      "id": "b6f5",
+      "productId": "bu1",
+      "content": "troi oi khong the tin noi, qua ngon so voi quy dinh, a may ding gut chop",
+      "userId": "us4",
+      "star": 5
+    },
+    {
+      "id": "b881",
+      "productId": "b4",
+      "content": "ngonnnnn",
+      "userId": "us4",
+      "star": 5
+    },
+    {
+      "id": "2e9a",
+      "productId": "pi4",
+      "content": "ngon nggon ngnn 😊",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "c425",
+      "productId": "pi4",
+      "content": "gut chopppp, ahihihihi",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "0f9b",
+      "productId": "pi4",
+      "content": "LAn sau toi se ru them ban toi mua👍",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "c210",
+      "productId": "b0",
+      "content": "toet voi shop oi",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "3122",
+      "productId": "b0",
+      "content": "very guttt",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "a239",
+      "productId": "pi2",
+      "content": "toi thich mon an nay",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "32ac",
+      "productId": "pi3",
+      "content": "mon nay lam toi nho den tuoi tho",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "7b4b",
+      "productId": "b5",
+      "content": "bun ngon , ca cung ngon",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "3e24",
+      "productId": "b5",
+      "content": "toi se an no moi ngay",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "b2e6",
+      "productId": "bu3",
+      "content": "cho 5 sao , rat tuyet",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "245d",
+      "productId": "bu3",
+      "content": "toi yeu mon an nay",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "5023",
+      "productId": "bu3",
+      "content": "love love love",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "65e5",
+      "productId": "bu3",
+      "content": "aaaaaa",
+      "userId": "04a3",
+      "star": 5
+    },
+    {
+      "id": "ccf4",
+      "productId": "pi2",
+      "content": "ookokokok",
+      "userId": "7726",
+      "star": 5
+    },
+    {
+      "id": "6855",
+      "productId": "b1",
+      "content": "hiii",
+      "userId": "7726",
+      "star": 5
+    }
+  ],
+  "favourites": [
+    {
+      "id": "031f",
+      "productId": "pi4",
+      "userId": "us1"
+    },
+    {
+      "id": "032f",
+      "productId": "b3",
+      "userId": "us1"
+    },
+    {
+      "id": "b92f",
+      "productId": "p5",
+      "userId": "us1"
+    },
+    {
+      "id": "6422",
+      "productId": "fd4",
+      "userId": "04a3"
+    },
+    {
+      "id": "0d6e",
+      "productId": "pi1",
+      "userId": "04a3"
+    },
+    {
+      "id": "6ae6",
+      "productId": "pi4",
+      "userId": "04a3"
+    },
+    {
+      "id": "e915",
+      "productId": "pi2",
+      "userId": "7726"
+    }
+  ]
+}
